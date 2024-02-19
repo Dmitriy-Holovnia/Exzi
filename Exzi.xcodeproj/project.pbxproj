@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D3DF542B80CC93009D3E6F /* ExziApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF532B80CC93009D3E6F /* ExziApp.swift */; };
+		09D3DF582B80CC94009D3E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D3DF572B80CC94009D3E6F /* Assets.xcassets */; };
+		09D3DF5B2B80CC94009D3E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D3DF5A2B80CC94009D3E6F /* Preview Assets.xcassets */; };
+		09D3DF6B2B80CEC2009D3E6F /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 09D3DF6A2B80CEC2009D3E6F /* ComposableArchitecture */; };
+		09D3DF6D2B80D2CB009D3E6F /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF6C2B80D2CB009D3E6F /* BookResponse.swift */; };
+		09D3DF6F2B80D39B009D3E6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF6E2B80D39B009D3E6F /* NetworkManager.swift */; };
+		09D3DF722B80D916009D3E6F /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF712B80D916009D3E6F /* ChartData.swift */; };
+		09D3DF752B80DCD7009D3E6F /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 09D3DF742B80DCD7009D3E6F /* DGCharts */; };
+		09D3DF772B80DCD7009D3E6F /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 09D3DF762B80DCD7009D3E6F /* DGChartsDynamic */; };
+		09D3DF792B81106F009D3E6F /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF782B81106F009D3E6F /* ChartView.swift */; };
+		09D3DF7B2B81120E009D3E6F /* TradingPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF7A2B81120E009D3E6F /* TradingPanelView.swift */; };
+		09D3DF7D2B823CB2009D3E6F /* OrderBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF7C2B823CB2009D3E6F /* OrderBookView.swift */; };
+		09D3DF802B824D5C009D3E6F /* OpenOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF7F2B824D5C009D3E6F /* OpenOrderView.swift */; };
+		09D3DF822B8256E4009D3E6F /* ChartPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF812B8256E4009D3E6F /* ChartPanelView.swift */; };
+		09D3DF852B8265E4009D3E6F /* ChartOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF842B8265E4009D3E6F /* ChartOrderView.swift */; };
+		09D3DF872B82836B009D3E6F /* TradeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF862B82836B009D3E6F /* TradeResponse.swift */; };
+		09D3DF892B831EAF009D3E6F /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3DF882B831EAF009D3E6F /* Double+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09D3DF502B80CC93009D3E6F /* Exzi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exzi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D3DF532B80CC93009D3E6F /* ExziApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExziApp.swift; sourceTree = "<group>"; };
+		09D3DF572B80CC94009D3E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09D3DF5A2B80CC94009D3E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09D3DF6C2B80D2CB009D3E6F /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
+		09D3DF6E2B80D39B009D3E6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		09D3DF712B80D916009D3E6F /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		09D3DF782B81106F009D3E6F /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		09D3DF7A2B81120E009D3E6F /* TradingPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingPanelView.swift; sourceTree = "<group>"; };
+		09D3DF7C2B823CB2009D3E6F /* OrderBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBookView.swift; sourceTree = "<group>"; };
+		09D3DF7F2B824D5C009D3E6F /* OpenOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenOrderView.swift; sourceTree = "<group>"; };
+		09D3DF812B8256E4009D3E6F /* ChartPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPanelView.swift; sourceTree = "<group>"; };
+		09D3DF842B8265E4009D3E6F /* ChartOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartOrderView.swift; sourceTree = "<group>"; };
+		09D3DF862B82836B009D3E6F /* TradeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeResponse.swift; sourceTree = "<group>"; };
+		09D3DF882B831EAF009D3E6F /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09D3DF4D2B80CC93009D3E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D3DF752B80DCD7009D3E6F /* DGCharts in Frameworks */,
+				09D3DF772B80DCD7009D3E6F /* DGChartsDynamic in Frameworks */,
+				09D3DF6B2B80CEC2009D3E6F /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D3DF472B80CC93009D3E6F = {
+			isa = PBXGroup;
+			children = (
+				09D3DF522B80CC93009D3E6F /* Exzi */,
+				09D3DF512B80CC93009D3E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09D3DF512B80CC93009D3E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09D3DF502B80CC93009D3E6F /* Exzi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09D3DF522B80CC93009D3E6F /* Exzi */ = {
+			isa = PBXGroup;
+			children = (
+				09D3DF532B80CC93009D3E6F /* ExziApp.swift */,
+				09D3DF6E2B80D39B009D3E6F /* NetworkManager.swift */,
+				09D3DF882B831EAF009D3E6F /* Double+Extension.swift */,
+				09D3DF832B8256E8009D3E6F /* ChartPanel */,
+				09D3DF7E2B823CB9009D3E6F /* TradingPanel */,
+				09D3DF702B80D8F1009D3E6F /* Models */,
+				09D3DF572B80CC94009D3E6F /* Assets.xcassets */,
+				09D3DF592B80CC94009D3E6F /* Preview Content */,
+			);
+			path = Exzi;
+			sourceTree = "<group>";
+		};
+		09D3DF592B80CC94009D3E6F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				09D3DF5A2B80CC94009D3E6F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09D3DF702B80D8F1009D3E6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09D3DF6C2B80D2CB009D3E6F /* BookResponse.swift */,
+				09D3DF712B80D916009D3E6F /* ChartData.swift */,
+				09D3DF862B82836B009D3E6F /* TradeResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		09D3DF7E2B823CB9009D3E6F /* TradingPanel */ = {
+			isa = PBXGroup;
+			children = (
+				09D3DF7A2B81120E009D3E6F /* TradingPanelView.swift */,
+				09D3DF782B81106F009D3E6F /* ChartView.swift */,
+				09D3DF7C2B823CB2009D3E6F /* OrderBookView.swift */,
+				09D3DF7F2B824D5C009D3E6F /* OpenOrderView.swift */,
+			);
+			path = TradingPanel;
+			sourceTree = "<group>";
+		};
+		09D3DF832B8256E8009D3E6F /* ChartPanel */ = {
+			isa = PBXGroup;
+			children = (
+				09D3DF812B8256E4009D3E6F /* ChartPanelView.swift */,
+				09D3DF842B8265E4009D3E6F /* ChartOrderView.swift */,
+			);
+			path = ChartPanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09D3DF4F2B80CC93009D3E6F /* Exzi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D3DF632B80CC95009D3E6F /* Build configuration list for PBXNativeTarget "Exzi" */;
+			buildPhases = (
+				09D3DF4C2B80CC93009D3E6F /* Sources */,
+				09D3DF4D2B80CC93009D3E6F /* Frameworks */,
+				09D3DF4E2B80CC93009D3E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exzi;
+			packageProductDependencies = (
+				09D3DF6A2B80CEC2009D3E6F /* ComposableArchitecture */,
+				09D3DF742B80DCD7009D3E6F /* DGCharts */,
+				09D3DF762B80DCD7009D3E6F /* DGChartsDynamic */,
+			);
+			productName = Exzi;
+			productReference = 09D3DF502B80CC93009D3E6F /* Exzi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09D3DF482B80CC93009D3E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					09D3DF4F2B80CC93009D3E6F = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 09D3DF4B2B80CC93009D3E6F /* Build configuration list for PBXProject "Exzi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09D3DF472B80CC93009D3E6F;
+			packageReferences = (
+				09D3DF692B80CEC2009D3E6F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				09D3DF732B80DCD7009D3E6F /* XCRemoteSwiftPackageReference "Charts" */,
+			);
+			productRefGroup = 09D3DF512B80CC93009D3E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09D3DF4F2B80CC93009D3E6F /* Exzi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09D3DF4E2B80CC93009D3E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D3DF5B2B80CC94009D3E6F /* Preview Assets.xcassets in Resources */,
+				09D3DF582B80CC94009D3E6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09D3DF4C2B80CC93009D3E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D3DF7D2B823CB2009D3E6F /* OrderBookView.swift in Sources */,
+				09D3DF872B82836B009D3E6F /* TradeResponse.swift in Sources */,
+				09D3DF7B2B81120E009D3E6F /* TradingPanelView.swift in Sources */,
+				09D3DF6F2B80D39B009D3E6F /* NetworkManager.swift in Sources */,
+				09D3DF722B80D916009D3E6F /* ChartData.swift in Sources */,
+				09D3DF802B824D5C009D3E6F /* OpenOrderView.swift in Sources */,
+				09D3DF822B8256E4009D3E6F /* ChartPanelView.swift in Sources */,
+				09D3DF542B80CC93009D3E6F /* ExziApp.swift in Sources */,
+				09D3DF892B831EAF009D3E6F /* Double+Extension.swift in Sources */,
+				09D3DF6D2B80D2CB009D3E6F /* BookResponse.swift in Sources */,
+				09D3DF792B81106F009D3E6F /* ChartView.swift in Sources */,
+				09D3DF852B8265E4009D3E6F /* ChartOrderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09D3DF612B80CC95009D3E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09D3DF622B80CC95009D3E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09D3DF642B80CC95009D3E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriycr3w.Exzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09D3DF652B80CC95009D3E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exzi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dmitriycr3w.Exzi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09D3DF4B2B80CC93009D3E6F /* Build configuration list for PBXProject "Exzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D3DF612B80CC95009D3E6F /* Debug */,
+				09D3DF622B80CC95009D3E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D3DF632B80CC95009D3E6F /* Build configuration list for PBXNativeTarget "Exzi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D3DF642B80CC95009D3E6F /* Debug */,
+				09D3DF652B80CC95009D3E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09D3DF692B80CEC2009D3E6F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.8.0;
+			};
+		};
+		09D3DF732B80DCD7009D3E6F /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09D3DF6A2B80CEC2009D3E6F /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D3DF692B80CEC2009D3E6F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		09D3DF742B80DCD7009D3E6F /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D3DF732B80DCD7009D3E6F /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		09D3DF762B80DCD7009D3E6F /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09D3DF732B80DCD7009D3E6F /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGChartsDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 09D3DF482B80CC93009D3E6F /* Project object */;
+}
